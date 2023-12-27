@@ -11,6 +11,9 @@
 		DD6150902B3C4031006913FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD61508F2B3C4031006913FD /* ContentView.swift */; };
 		DD6150922B3C4032006913FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6150912B3C4032006913FD /* Assets.xcassets */; };
 		DD6150952B3C4032006913FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6150942B3C4032006913FD /* Preview Assets.xcassets */; };
+		DD61509E2B3C4057006913FD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD61509D2B3C4057006913FD /* Item.swift */; };
+		DD6150A02B3C4094006913FD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD61509F2B3C4094006913FD /* Home.swift */; };
+		DD6150A22B3C415C006913FD /* LoopingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6150A12B3C415C006913FD /* LoopingScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		DD61508F2B3C4031006913FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD6150912B3C4032006913FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD6150942B3C4032006913FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD61509D2B3C4057006913FD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DD61509F2B3C4094006913FD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		DD6150A12B3C415C006913FD /* LoopingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopingScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,8 @@
 		DD61508C2B3C4031006913FD /* InfiniteLoopingScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				DD61509C2B3C4045006913FD /* View */,
+				DD61509B2B3C4040006913FD /* Model */,
 				DD61508D2B3C4031006913FD /* InfiniteLoopingScrollViewApp.swift */,
 				DD61508F2B3C4031006913FD /* ContentView.swift */,
 				DD6150912B3C4032006913FD /* Assets.xcassets */,
@@ -65,6 +73,23 @@
 				DD6150942B3C4032006913FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD61509B2B3C4040006913FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD61509D2B3C4057006913FD /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD61509C2B3C4045006913FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD61509F2B3C4094006913FD /* Home.swift */,
+				DD6150A12B3C415C006913FD /* LoopingScrollView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6150A22B3C415C006913FD /* LoopingScrollView.swift in Sources */,
 				DD6150902B3C4031006913FD /* ContentView.swift in Sources */,
+				DD61509E2B3C4057006913FD /* Item.swift in Sources */,
+				DD6150A02B3C4094006913FD /* Home.swift in Sources */,
 				DD61508E2B3C4031006913FD /* InfiniteLoopingScrollViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
